@@ -1,0 +1,114 @@
+* {
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.navbar {
+  width: 100%;
+  background-color: #0f64b4;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  width: 31.66%;
+  text-align: center;
+}
+
+.navbar a:hover {
+  background-color: #1b1b1b86;
+}
+
+.navbar a.active {
+  background-color: #a9c2d9;
+  color: #000000;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+  }
+}
+
+h1 {
+  color: #0f64b4;
+  text-align: center;
+}
+
+h3 {
+  color: #ffffff;
+  text-align: center;
+}
+
+body {
+  margin: 0px;
+  background-color: #ffffff;
+}
+
+.active {
+  background-color: #a9c2d9;
+}
+
+.header {
+  padding: 40px;
+  text-align: center;
+  background: #ffffff;
+  color: #000000;
+  font-size: 20px;
+}
+
+.project-cards {
+  margin: auto;
+  width: 90%;
+  padding: 10px;
+  display: flex;
+}
+
+.card {
+  width: 30%;
+  background-color: #a9c2d9;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px;
+  cursor: pointer;
+  flex: 0.5;
+  margin: 20px;
+  position: relative;
+  transition: all 700ms ease-in;
+  border-radius: 10px 10px 10px 10px;
+  border-style: solid;
+}
+
+.card h3 {
+  font-size: 24px;
+  font-weight: 500;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  margin: 0;
+  color: #000000;
+}
+
+.card:hover {
+  box-shadow: 5px 5px 15px #0f64b4;
+  color: #000000;
+}
+
+footer {
+  padding: 30px;
+  text-align: center;
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 30px;
+}
+
+footer i {
+  padding: 10px;
+  color: #000000;
+}
